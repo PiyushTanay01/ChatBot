@@ -9,15 +9,16 @@ const app = express();
 app.use(
   cors({
     origin: [
-      "https://chat-bot-omega-wheat.vercel.ap
-      "http://localhost:3000"                     
+      "https://chat-bot-omega-wheat.vercel.app",
+      "http://localhost:3000"
     ],
     methods: ["GET", "POST", "OPTIONS"],
     allowedHeaders: ["Content-Type"],
   })
 );
 
-app.options("*", cors()); // handle preflight
+app.options("*", cors());
+
 
 app.use(express.json());
 
