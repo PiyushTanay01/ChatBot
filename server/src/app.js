@@ -5,7 +5,16 @@ import sessionRoutes from "./routes/sessionRoutes.js";
 import faqRoutes from "./routes/faqRoutes.js";
 
 const app = express();
-app.use(cors());
+app.use(
+  cors({
+    origin: [
+      "https://techstore-support.vercel.app",   // your deployed frontend
+      "http://localhost:3000"                   // local development
+    ],
+    methods: ["GET", "POST"],
+    allowedHeaders: ["Content-Type"],
+  })
+);
 app.use(express.json());
 
 app.use("/chat", chatRoutes);
