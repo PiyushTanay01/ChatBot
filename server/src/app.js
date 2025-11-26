@@ -14,10 +14,10 @@ app.use(
     ],
     methods: ["GET", "POST", "OPTIONS"],
     allowedHeaders: ["Content-Type"],
+    credentials: true,
   })
 );
 
-app.options("*", cors());
 
 
 app.use(express.json());
