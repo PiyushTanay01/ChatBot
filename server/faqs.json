@@ -1,0 +1,22 @@
+[
+  {
+    "question": "What is your return policy?",
+    "answer": "We accept returns within 30 days of delivery. Items must be in original condition."
+  },
+  {
+    "question": "Do you offer free shipping?",
+    "answer": "Yes, shipping is free for all orders above $50."
+  },
+  {
+    "question": "How long does delivery take?",
+    "answer": "Delivery typically takes 3-5 business days depending on location."
+  },
+  {
+    "question": "My product arrived damaged. What should I do?",
+    "answer": "Please contact support with your order number. Damaged items are eligible for free replacement or refund."
+  },
+  {
+    "question": "How do I request a refund?",
+    "answer": "Open a support ticket with your order number. Refunds are processed within 7 days once approved."
+  }
+]
